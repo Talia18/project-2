@@ -47,7 +47,7 @@ const Navbar = () => {
             )}
           </ul>
 
-          <ul className="navbar-nav mb-2 mb-lg-0 ">
+          <ul className="navbar-nav mb-2 mb-lg-0">
             {user ? (
               <li className="nav-item">
                 <NavLink className="nav-link" to="/sign-out">
