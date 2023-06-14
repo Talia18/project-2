@@ -19,7 +19,7 @@ import CardsView from "./components/cardsView";
 
 function App() {
   return (
-    <div id="main" className="vh-100 d-flex flex-column">
+    <div className="vh-100 d-flex flex-column">
       <ToastContainer slide={Zoom} />
       <header>
         <Navbar />

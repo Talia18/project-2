@@ -13,7 +13,7 @@ const MyCards = () => {
         description="your cards are in the list below"
       />
 
-      <div className="row">
+      <div className="m-auto">
         <Link
           className="text-center"
           style={{ color: "black" }}

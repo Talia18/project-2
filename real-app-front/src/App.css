@@ -11,7 +11,7 @@ width: 100%;
 }
 
 html[data-bs-theme="light"] #mainOverlay{
-  background-color: #ffffff90;
+  background-color: #ffffff80;
 }
 
 html[data-bs-theme="dark"] #mainOverlay{
@@ -22,7 +22,24 @@ html[data-bs-theme="dark"] .navbar-nav .nav-link.active{
 font-weight: 600;
 }
 
-html[data-bs-theme="dark"] p, html[data-bs-theme="dark"] span, html[data-bs-theme="dark"] i ,html[data-bs-theme="dark"] h1 ,html[data-bs-theme="dark"] h2,html[data-bs-theme="dark"] h3,html[data-bs-theme="dark"] h5,html[data-bs-theme="dark"] a,html[data-bs-theme="dark"] label {
+html[data-bs-theme="dark"] p,
+html[data-bs-theme="dark"] span,
+html[data-bs-theme="dark"] i
+,html[data-bs-theme="dark"] h1
+,html[data-bs-theme="dark"] h2,
+html[data-bs-theme="dark"] h3,
+html[data-bs-theme="dark"] h5,
+html[data-bs-theme="dark"] a,
+html[data-bs-theme="dark"] label,
+html[data-bs-theme="dark"] div {
   color: white;
 }
 
+#growCard {
+  transition: all 0.2s ease-in-out;
+}
+
+#growCard:hover {
+  transform: scale(1.1);
+  background-color: rgb(160, 184, 182);
+}
