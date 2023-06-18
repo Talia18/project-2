@@ -14,7 +14,7 @@ const Home = () => {
           </>
         }
         description={
-          "Hello to our website, Here you can fint some of business."
+          "Hello to our website, Here you can find some of business."
         }
       />
 
