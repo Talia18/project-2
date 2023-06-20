@@ -2,7 +2,7 @@
 
 ![business](https://github.com/Talia18/react-app-project/assets/111443123/4e453fd9-4081-4a67-b434-1e1a1405b319)
 
-## Description
+## Descriptio
 
 The site provides a service for people who are looking for work with business owners. On the site you will find cards of business owners who are with them.
 
