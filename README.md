@@ -35,7 +35,7 @@ foo@bar:~$ git clone https://github.com/LiorTahulian/react-app-project.git
 
 In order to use my project you have to install MongoDB. Then follow these steps:
 
-1. Open the terminal, go to "/real-app-server", and write
+1. Open the terminal, go to "/real-app-server", and write:
 
 ```
 npm i
@@ -43,7 +43,7 @@ npm i
 
 to get all the required libraries.
 
-2. Write
+2. Write:
 
 ```
 npm run dev
@@ -53,7 +53,7 @@ to connect the MongoDB with the server.
 
 ## Front
 
-1. Open the terminal, go to "/real-app-front", and write
+1. Open the terminal, go to "/real-app-front", and write:
 
 ```
 npm i
@@ -61,7 +61,7 @@ npm i
 
 to get all the required libraries.
 
-2. Write
+2. Write:
 
 ```
 npm run start
