@@ -5,34 +5,32 @@ import { useMyCards } from "../hooks/useMyCards";
 const Home = () => {
   const cards = useMyCards();
 
+  const HEADER_DESCRIPTION =
+    "Hello to our website, Here you can find some of business.";
+
+  const STYLE = { width: "900px", height: "500px" };
+
   return (
     <>
       <PageHeader
         title={
           <>
-            <i className="bi bi-bullseye"></i> Ecommerce
+            <i className="bi bi-bullseye"></i> Your Biz Cards
           </>
         }
-        description={
-          "Hello to our website, Here you can find some of business."
-        }
+        description={HEADER_DESCRIPTION}
       />
 
       <div className="row d-flex flex-wrap justify-content-around gap-2 mt-2">
         {!cards.length ? (
-          <div
-            id="carouselExample"
-            className="carousel slide"
-            style={{ width: "900px", height: "500px" }}>
-            <div
-              className="carousel-inner"
-              style={{ width: "900px", height: "500px" }}>
+          <div id="carouselExample" className="carousel slide" style={STYLE}>
+            <div className="carousel-inner" style={STYLE}>
               <div className="carousel-item active">
                 <img
                   src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_1280.jpg"
                   className="d-block w-100"
                   alt="..."
-                  style={{ width: "900px", height: "500px" }}
+                  style={STYLE}
                 />
               </div>
               <div className="carousel-item">
@@ -40,7 +38,7 @@ const Home = () => {
                   src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg"
                   className="d-block w-100"
                   alt="..."
-                  style={{ width: "900px", height: "500px" }}
+                  style={STYLE}
                 />
               </div>
               <div className="carousel-item">
@@ -48,7 +46,7 @@ const Home = () => {
                   src="https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_1280.jpg"
                   className="d-block w-100"
                   alt="..."
-                  style={{ width: "900px", height: "500px" }}
+                  style={STYLE}
                 />
               </div>
             </div>

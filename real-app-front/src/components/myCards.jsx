@@ -27,7 +27,7 @@ const MyCards = () => {
       <div className="d-flex flex-wrap justify-content-around mt-3 gap-2">
         {!cards.length ? (
           <p className="text-danger fw-bold fs-4">
-            No cards yet, Please create some card
+            No cards yet, Please create some card!
           </p>
         ) : (
           cards.map((card) => <Card key={card._id} card={card} />)

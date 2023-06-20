@@ -30,7 +30,6 @@ const Card = ({
           <Link to={`/my-cards/edit/${_id}`} className="card-link">
             <span className="btn btn-primary">
               <i className="bi bi-pencil-square"></i>
-              {/* Edit */}
             </span>
           </Link>
 
@@ -43,7 +42,6 @@ const Card = ({
           <Link to={`/my-cards/view/${_id}`} className="card-link">
             <span className="btn btn-success">
               <i className="bi bi-eye"></i>
-              {/* View */}
             </span>
           </Link>
         </div>

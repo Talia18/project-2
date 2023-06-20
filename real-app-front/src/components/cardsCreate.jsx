@@ -7,6 +7,7 @@ import { useState } from "react";
 import { createCard } from "../services/cardsService";
 import { toast } from "react-toastify";
 import formikValidateWithJoi from "../utils/formikValidateWithJoi";
+import { GREY } from ".";
 
 const CardCreate = ({ redirect = "/my-cards" }) => {
   const [error, setError] = useState("");
@@ -66,7 +67,7 @@ const CardCreate = ({ redirect = "/my-cards" }) => {
   return (
     <div className="row d-flex justify-content-center align-items-center h-100 my-4">
       <div
-        style={{ backgroundColor: "#b2bFBE" }}
+        style={{ backgroundColor: GREY }}
         className="col-12 col-md-6 col-lg-6 col-xl-4 border rounded px-3 pb-3">
         <PageHeader
           title="Create new Card"

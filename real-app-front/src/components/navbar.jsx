@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useAuth } from "../context/auth.context";
 import { useEffect, useState } from "react";
+import { GREY } from ".";
 
 const Navbar = () => {
   const { user } = useAuth();
@@ -12,12 +13,12 @@ const Navbar = () => {
   }, [themeMode]);
   return (
     <nav
-      style={{ backgroundColor: "#b2bFBE" }}
+      style={{ backgroundColor: GREY }}
       className="navbar navbar-expand-lg navbar-light"
       aria-label="Fifth navbar example">
       <div className="container">
         <NavLink className="navbar-brand" to="/">
-          <i className="bi bi-bullseye"></i> Ecommerce
+          <i className="bi bi-bullseye"></i> Your Biz Cards
         </NavLink>
         <button
           className="navbar-toggler"

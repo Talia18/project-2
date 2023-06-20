@@ -5,8 +5,8 @@ import Input from "./common/input";
 import { useFormik } from "formik";
 import formikValidateWithJoi from "../utils/formikValidateWithJoi";
 import { useAuth } from "../context/auth.context";
-
 import Joi from "joi";
+import { GREY } from ".";
 
 const SignIn = () => {
   const [error, setError] = useState("");
@@ -47,10 +47,10 @@ const SignIn = () => {
   return (
     <div className="row d-flex justify-content-center align-items-center h-100 my-4">
       <div
-        style={{ backgroundColor: "#b2bFBE" }}
+        style={{ backgroundColor: GREY }}
         className="col-12 col-md-6 col-lg-6 col-xl-4 border rounded px-3 pb-3">
         <PageHeader
-          title="Sign In with Ecommerce"
+          title={"Sign In with Your Biz Cards"}
           description="Connect with your account!!"
         />
 

@@ -5,9 +5,9 @@ import Input from "./common/input";
 import { useFormik } from "formik";
 import formikValidateWithJoi from "../utils/formikValidateWithJoi";
 import Joi from "joi";
-import { createUser } from "../services/usersService";
 import { useAuth } from "../context/auth.context";
 import Checkbox from "./common/checkBox";
+import { GREY } from ".";
 
 const SignUp = () => {
   const [error, setError] = useState("");
@@ -60,10 +60,10 @@ const SignUp = () => {
   return (
     <div className="row d-flex justify-content-center align-items-center h-100 my-4">
       <div
-        style={{ backgroundColor: "#b2bFBE" }}
+        style={{ backgroundColor: GREY }}
         className="col-12 col-md-6 col-lg-6 col-xl-4 border rounded px-3 pb-3">
         <PageHeader
-          title="Sign Up with Ecommerce"
+          title="Sign Up with Your Biz Cards"
           description="Open a new account, it's free!!!"
         />
 
