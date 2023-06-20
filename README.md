@@ -2,32 +2,72 @@
 
 ![business](https://github.com/Talia18/react-app-project/assets/111443123/4e453fd9-4081-4a67-b434-1e1a1405b319)
 
-#### The site provides a service for people who are looking for work with business owners. On the site you will find cards of business owners who are with them.
+## Description
 
-#### My motivation for building the site is to strengthen the relationship between employers and people so that they can create cooperation together to promote a common goal.
+The site provides a service for people who are looking for work with business owners. On the site you will find cards of business owners who are with them.
 
-#### I built this site because when I was looking for businesses to work with it took me a very long time, and I thought of a solution that could solve my problem and could make it easier for other people.
+My motivation for building the site is to strengthen the relationship between employers and people so that they can create cooperation together to promote a common goal.
 
-## Installation
+I built this site because when I was looking for businesses to work with it took me a very long time, and I thought of a solution that could solve my problem and could make it easier for other people.
 
-- bootstrap (npm i bootstrap)
-- bootstrap icons (npm i bootstrap-icons)
-- react-router-dom (npm i react-router-dom)
-- axsios (npm i axios)
-- formik (npm i formik)
-- Joi (npm i joi)
-- jwtDecode (npm i jwt-decode)
-- toastify (npm i react-toastify)
+## Technologies In Use
 
-## 🚀 How to run it ?
+- bootstrap
+- bootstrap icons
+- react-router-dom
+- axsios
+- formik
+- Joi
+- jwtDecode
+- toastify
+
+ ## 🚀 How to run it ?
 
 In order to install the project, you should clone the repo:
 
 ```
-
 foo@bar:~$ git clone https://github.com/LiorTahulian/react-app-project.git
+```
+
+## Server
+
+⚠️ Important!
+
+In order to use my project you have to install MongoDB. Then follow these steps:
+
+1. Open the terminal, go to "/real-app-server", and write
 
 ```
+npm i
+```
+
+to get all the required libraries.
+
+2. Write
+
+```
+npm run dev
+```
+
+to connect the MongoDB with the server.
+
+## Front
+
+1. Open the terminal, go to "/real-app-front", and write
+
+```
+npm i
+```
+
+to get all the required libraries.
+
+2. Write
+
+```
+npm run start
+```
+
+to run the application.
 
 ## Usage
 
@@ -59,3 +99,5 @@ As a connected customer you will see in the navbar a "Sign Out" button.
 #### Sign In
 
 At "Sign In" page you can connect to the system.
+
+## ENJOY!!
