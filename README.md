@@ -2,11 +2,11 @@
 
 ![business](https://github.com/Talia18/react-app-project/assets/111443123/4e453fd9-4081-4a67-b434-1e1a1405b319)
 
-#### The site provides a service for people who want to train and run with other people. The site also provides the possibility to save cards of people with whom you would like to train.
+#### The site provides a service for people who are looking for work with business owners. On the site you will find cards of business owners who are with them.
 
-#### My motivation for building the site is that there is no platform for people who want to train collaboratively. That's why I built this site.
+#### My motivation for building the site is to strengthen the relationship between employers and people so that they can create cooperation together to promote a common goal.
 
-#### I am a person who likes to train in a group and I have not found an adequate solution to the problem of training independently.
+#### I built this site because when I was looking for businesses to work with it took me a very long time, and I thought of a solution that could solve my problem and could make it easier for other people.
 
 ## Installation
 
