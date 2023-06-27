@@ -11,7 +11,7 @@ width: 100%;
 }
 
 html[data-bs-theme="light"] #mainOverlay{
-  background-color: #ffffff80;
+  background-color: #ffffff50;
 }
 
 html[data-bs-theme="dark"] #mainOverlay{
@@ -43,3 +43,6 @@ html[data-bs-theme="dark"] div {
   transform: scale(1.1);
   background-color: rgb(160, 184, 182);
 }
+
+* {font-family: Playfair;
+  font-weight: bold }

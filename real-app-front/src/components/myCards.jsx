@@ -24,7 +24,7 @@ const MyCards = () => {
         </Link>
       </div>
 
-      <div className="d-flex flex-wrap justify-content-around mt-3 gap-2">
+      <div className="d-flex flex-wrap justify-content-around mt-3 gap-2 p-3">
         {!cards.length ? (
           <p className="text-danger fw-bold fs-4">
             No cards yet, Please create some card!

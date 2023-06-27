@@ -1,14 +1,13 @@
 import PageHeader from "./common/pageHeader";
 import Card from "./card";
 import { useMyCards } from "../hooks/useMyCards";
+import CardForAll from "./cardForAll";
 
 const Home = () => {
   const cards = useMyCards();
 
   const HEADER_DESCRIPTION =
-    "Hello to our website, Here you can find some of business.";
-
-  const STYLE = { width: "900px", height: "500px" };
+    "Welcome to our website, Here you can find business cards for cooperation .";
 
   return (
     <>
@@ -23,53 +22,46 @@ const Home = () => {
 
       <div className="row d-flex flex-wrap justify-content-around gap-2 mt-2">
         {!cards.length ? (
-          <div id="carouselExample" className="carousel slide" style={STYLE}>
-            <div className="carousel-inner" style={STYLE}>
-              <div className="carousel-item active">
-                <img
-                  src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_1280.jpg"
-                  className="d-block w-100"
-                  alt="..."
-                  style={STYLE}
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg"
-                  className="d-block w-100"
-                  alt="..."
-                  style={STYLE}
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_1280.jpg"
-                  className="d-block w-100"
-                  alt="..."
-                  style={STYLE}
-                />
-              </div>
-            </div>
-            <button
-              className="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExample"
-              data-bs-slide="prev">
-              <span
-                className="carousel-control-prev-icon"
-                aria-hidden="true"></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button
-              className="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExample"
-              data-bs-slide="next">
-              <span
-                className="carousel-control-next-icon"
-                aria-hidden="true"></span>
-              <span className="visually-hidden">Next</span>
-            </button>
+          <div className="d-flex justify-content-around mt-2">
+            <CardForAll
+              img={
+                "https://er.isacs.eu/sites/default/files/flmngr/avatar-placeholder.png"
+              }
+              name={"Avi"}
+              description={"Project manager"}
+              address={"Tel Aviv"}
+              phone={"058-9648238"}
+            />
+
+            <CardForAll
+              img={
+                "https://er.isacs.eu/sites/default/files/flmngr/avatar-placeholder.png"
+              }
+              name={"Tal"}
+              description={"Editor"}
+              address={"Holon"}
+              phone={"058-8369412"}
+            />
+
+            <CardForAll
+              img={
+                "https://er.isacs.eu/sites/default/files/flmngr/avatar-placeholder.png"
+              }
+              name={"Oriya"}
+              description={"Project manager"}
+              address={"Bat Yam"}
+              phone={"058-7215684"}
+            />
+
+            <CardForAll
+              img={
+                "https://er.isacs.eu/sites/default/files/flmngr/avatar-placeholder.png"
+              }
+              name={"Sahar"}
+              description={"Project manager"}
+              address={"Elad"}
+              phone={"058-1395476"}
+            />
           </div>
         ) : (
           cards.toReversed().map((card, index) => {

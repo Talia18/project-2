@@ -7,7 +7,7 @@ const CardsView = () => {
   const card = useCard(id);
 
   return (
-    <div className="row d-flex flex-wrap justify-content-around mt-5">
+    <div className="row d-flex flex-wrap justify-content-around mt-5 p-2">
       {card === null ? null : (
         <div
           id="growCard"

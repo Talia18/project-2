@@ -16,16 +16,17 @@ import CardsDelete from "./components/cardsDelete";
 import CardsEdit from "./components/cardsEdit";
 import { ToastContainer, Zoom } from "react-toastify";
 import CardsView from "./components/cardsView";
+import CardForAll from "./components/cardForAll";
 
 function App() {
   return (
-    <div
-      className="vh-100 d-flex flex-column"
-      style={{ fontFamily: "Playfair", fontWeight: "bold" }}>
+    <div className="vh-100 d-flex flex-column">
       <ToastContainer slide={Zoom} />
+
       <header>
         <Navbar />
       </header>
+
       <div id="innerMain" className="d-flex flex-fill flex-column">
         <div id="mainOverlay" className="p-2 flex-fill flex-column d-flex">
           <Routes>
@@ -33,11 +34,11 @@ function App() {
 
             <Route path="about" element={<About />} />
 
-            <Route path="sign-in" element={<SignIn />} />
+            <Route path="sign-in" element={<SignIn redirect="/" />} />
 
-            <Route path="sign-up" element={<SignUp />} />
+            <Route path="sign-up" element={<SignUp redirect="/sign-in" />} />
 
-            <Route path="sign-out" element={<SignOut />} />
+            <Route path="sign-out" element={<SignOut redirect="/" />} />
 
             <Route
               path="my-cards"
@@ -83,6 +84,8 @@ function App() {
                 </ProtectedRoute>
               }
             />
+
+            <Route path="card-for-all" element={<CardForAll />} />
           </Routes>
         </div>
       </div>

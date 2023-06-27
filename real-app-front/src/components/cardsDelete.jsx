@@ -11,7 +11,7 @@ const CardsDelete = () => {
     const deleteCard = async () => {
       await cardsService.deleteCard(id);
       navigate("/my-cards");
-      toast("The card deleted!");
+      toast("The card deleted 👏🏾");
     };
 
     deleteCard();
