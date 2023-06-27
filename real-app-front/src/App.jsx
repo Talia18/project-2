@@ -40,6 +40,8 @@ function App() {
 
             <Route path="sign-out" element={<SignOut redirect="/" />} />
 
+            <Route path="card-for-all" element={<CardForAll />} />
+
             <Route
               path="my-cards"
               element={
@@ -84,8 +86,6 @@ function App() {
                 </ProtectedRoute>
               }
             />
-
-            <Route path="card-for-all" element={<CardForAll />} />
           </Routes>
         </div>
       </div>

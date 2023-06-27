@@ -1,4 +1,4 @@
-const CardForAll = ({ img, name, description, address, phone, _id }) => {
+const CardForAll = ({ img, name, description, address, phone }) => {
   return (
     <div className="card p-0" style={{ width: "18rem" }}>
       <img
