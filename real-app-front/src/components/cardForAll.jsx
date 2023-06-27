@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const CardForAll = ({ img, name, description, address, phone, _id }) => {
   return (
     <div className="card p-0" style={{ width: "18rem" }}>
