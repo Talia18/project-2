@@ -1,6 +1,6 @@
 const CardForAll = ({ img, name, description, address, phone }) => {
   return (
-    <div className="card p-0" style={{ width: "18rem" }}>
+    <div className="card p-0 mt-3" style={{ width: "18rem" }}>
       <img
         src={img}
         className="card-img-top"

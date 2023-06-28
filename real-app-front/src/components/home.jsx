@@ -20,9 +20,9 @@ const Home = () => {
         description={HEADER_DESCRIPTION}
       />
 
-      <div className="row d-flex flex-wrap justify-content-around gap-2 mt-2">
+      <div className="row d-flex flex-wrap justify-content-around gap-3 mt-2">
         {!cards.length ? (
-          <div className="d-flex justify-content-around mt-2">
+          <div className="d-flex flex-wrap justify-content-around mt-2">
             <CardForAll
               img={
                 "https://er.isacs.eu/sites/default/files/flmngr/avatar-placeholder.png"
