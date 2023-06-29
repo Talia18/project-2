@@ -28,19 +28,19 @@ const Card = ({
 
         <div className="links d-flex justify-content-between">
           <Link to={`/my-cards/edit/${_id}`} className="card-link">
-            <span className="btn btn-primary">
+            <span className="btn btn-outline-primary">
               <i className="bi bi-pencil-square"></i>
             </span>
           </Link>
 
           <Link to={`/my-cards/delete/${_id}`} className="card-link">
-            <span className="btn btn-danger">
+            <span className="btn btn-outline-danger">
               <i className="bi bi-trash3"></i>
             </span>
           </Link>
 
           <Link to={`/my-cards/view/${_id}`} className="card-link">
-            <span className="btn btn-success">
+            <span className="btn btn-outline-success">
               <i className="bi bi-eye"></i>
             </span>
           </Link>
