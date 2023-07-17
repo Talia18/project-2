@@ -33,7 +33,7 @@ const CardsView = () => {
                   style={{ color: "green", fontSize: "40px" }}
                   to={`/my-cards`}
                   className="me-4 mt-4">
-                  <i class="bi bi-arrow-right-circle"></i>
+                  <i className="bi bi-arrow-right-circle"></i>
                 </Link>
               </div>
             </div>
